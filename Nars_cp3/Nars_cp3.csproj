@@ -1,0 +1,418 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DA37C56B-A937-4F50-835F-ABD8F442307C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nars_cp3</RootNamespace>
+    <AssemblyName>Nars_cp3</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.52">
+      <HintPath>..\..\..\..\..\Downloads\Bunifu_UI_v1.52.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\..\Downloads\GUNA\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.16.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin_dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="admin_dashboard.Designer.cs">
+      <DependentUpon>admin_dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="change_password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="change_password.Designer.cs">
+      <DependentUpon>change_password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_accounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_accounts.Designer.cs">
+      <DependentUpon>form_accounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_activity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_activity.Designer.cs">
+      <DependentUpon>form_activity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_add_Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_add_Account.Designer.cs">
+      <DependentUpon>Form_add_Account.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_add_borrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_add_borrow.Designer.cs">
+      <DependentUpon>form_add_borrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_add_equipment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_add_equipment.Designer.cs">
+      <DependentUpon>form_add_equipment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_borrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_borrow.Designer.cs">
+      <DependentUpon>form_borrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_equipments.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_equipments.Designer.cs">
+      <DependentUpon>form_equipments.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_logs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_logs.Designer.cs">
+      <DependentUpon>form_logs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_main.Designer.cs">
+      <DependentUpon>form_main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_return.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_return.Designer.cs">
+      <DependentUpon>form_return.cs</DependentUpon>
+    </Compile>
+    <Compile Include="home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login_form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login_form.Designer.cs">
+      <DependentUpon>login_form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="technical_dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="technical_dashboard.Designer.cs">
+      <DependentUpon>technical_dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="technical_home_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="technical_home_page.Designer.cs">
+      <DependentUpon>technical_home_page.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user_dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_dashboard.Designer.cs">
+      <DependentUpon>user_dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="user_home_page.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="user_home_page.Designer.cs">
+      <DependentUpon>user_home_page.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="admin_dashboard.resx">
+      <DependentUpon>admin_dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="change_password.resx">
+      <DependentUpon>change_password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_accounts.resx">
+      <DependentUpon>form_accounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_activity.resx">
+      <DependentUpon>form_activity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_add_Account.resx">
+      <DependentUpon>Form_add_Account.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_add_borrow.resx">
+      <DependentUpon>form_add_borrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_add_equipment.resx">
+      <DependentUpon>form_add_equipment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_borrow.resx">
+      <DependentUpon>form_borrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_equipments.resx">
+      <DependentUpon>form_equipments.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_logs.resx">
+      <DependentUpon>form_logs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_main.resx">
+      <DependentUpon>form_main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_return.resx">
+      <DependentUpon>form_return.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="home.resx">
+      <DependentUpon>home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login_form.resx">
+      <DependentUpon>login_form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="technical_dashboard.resx">
+      <DependentUpon>technical_dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="technical_home_page.resx">
+      <DependentUpon>technical_home_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_dashboard.resx">
+      <DependentUpon>user_dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="user_home_page.resx">
+      <DependentUpon>user_home_page.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\auu1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\au.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\au2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_noew.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\newLogo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_icn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usertype.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home_ic_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\myacc_ic_light.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\myacc_ic_light1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\technical_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\texhnical_top_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\texhnical_top_icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\department_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\department_icon_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\admin_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_top.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\db_icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\activate_ic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_ic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deact_ic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete+oc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_ic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\box.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lgos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serial.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\model.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\status.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\available.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avail2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\c3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\borrow.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

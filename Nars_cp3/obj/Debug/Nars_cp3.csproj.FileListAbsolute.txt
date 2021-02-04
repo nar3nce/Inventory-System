@@ -1,0 +1,64 @@
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\bin\Debug\Nars_cp3.exe.config
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\bin\Debug\Nars_cp3.exe
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\bin\Debug\Nars_cp3.pdb
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.csprojAssemblyReference.cache
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.admin_dashboard.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.change_password.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.Form1.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_accounts.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_activity.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.Form_add_Account.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_add_borrow.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_add_equipment.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_borrow.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_equipments.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_logs.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_main.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.home.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.login_form.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.Properties.Resources.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.technical_dashboard.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.technical_home_page.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.user_dashboard.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.user_home_page.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.csproj.GenerateResource.cache
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.csproj.CopyComplete
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.exe
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.pdb
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_return.resources
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\bin\Debug\MySql.Data.dll
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\bin\Debug\Google.Protobuf.dll
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\j4ck\Documents\Visual Studio 2012\Projects\Nars_cp3\Nars_cp3\bin\Debug\MySql.Data.xml
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\bin\Debug\Nars_cp3.exe.config
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\bin\Debug\Nars_cp3.exe
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\bin\Debug\Nars_cp3.pdb
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\bin\Debug\Google.Protobuf.dll
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\bin\Debug\MySql.Data.xml
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.csprojAssemblyReference.cache
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.admin_dashboard.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.change_password.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.Form1.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_accounts.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_activity.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.Form_add_Account.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_add_borrow.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_add_equipment.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_borrow.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_equipments.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_logs.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_main.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.form_return.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.home.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.login_form.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.Properties.Resources.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.technical_dashboard.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.technical_home_page.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.user_dashboard.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.user_home_page.resources
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.csproj.GenerateResource.cache
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.csproj.CoreCompileInputs.cache
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.csproj.CopyComplete
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.exe
+C:\Users\nar3nce\Desktop\Nars_cp3\Nars_cp3\obj\Debug\Nars_cp3.pdb
